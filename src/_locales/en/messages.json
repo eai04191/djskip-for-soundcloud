@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "DJSkip for SoundCloud"
+    },
+    "extensionShortName": {
+        "message": "DJSkip"
+    },
+    "extensionDescription": {
+        "message": "DJ who is good at skipping for you."
+    },
+    "optionsAutoSkipWords": {
+        "message": "Auto Skip Words"
+    },
+    "optionsAutoSkipWordsDescription": {
+        "message": "If this words is included in the scan, the track will be skipped. It is not case-sensitive."
+    },
+    "optionsAutoSkipLength": {
+        "message": "Auto Skip Length"
+    },
+    "optionsAutoSkipLengthDescription": {
+        "message": "If the track exceeds this length, the track will be skipped. The unit is minutes."
+    },
+    "optionsSave": {
+        "message": "Save"
+    }
+}

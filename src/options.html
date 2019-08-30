@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <style>
+            .option label:after {
+                content: ":";
+            }
+        </style>
+    </head>
+
+    <body>
+        <form>
+            <div class="option">
+                <label for="autoSkipWords">__MSG_optionsAutoSkipWords__</label>
+                <textarea id="autoSkipWords" name="autoSkipWords"></textarea>
+                <p><small>__MSG_optionsAutoSkipWordsDescription__</small></p>
+            </div>
+            <div class="option">
+                <label for="autoSkipLength">
+                    __MSG_optionsAutoSkipLength__
+                </label>
+                <input type="text" id="autoSkipLength" name="autoSkipLength" />
+                <p><small>__MSG_optionsAutoSkipLengthDescription__</small></p>
+            </div>
+            <hr />
+            <button type="submit">__MSG_optionsSave__</button>
+        </form>
+
+        <script src="options.ts"></script>
+    </body>
+</html>

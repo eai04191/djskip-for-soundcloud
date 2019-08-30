@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "DJSkip for SoundCloud"
+    },
+    "extensionShortName": {
+        "message": "DJSkip"
+    },
+    "extensionDescription": {
+        "message": "スキップが得意なあなたのためのDJ"
+    },
+    "optionsAutoSkipWords": {
+        "message": "自動スキップリスト"
+    },
+    "optionsAutoSkipWordsDescription": {
+        "message": "トラックのスキャン対象にこれらの文字列が含まれる場合、トラックは自動でスキップされます。大文字小文字は区別されません。"
+    },
+    "optionsAutoSkipLength": {
+        "message": "自動スキップする長さ"
+    },
+    "optionsAutoSkipLengthDescription": {
+        "message": "トラックがこの長さを超える場合、トラックは自動でスキップされます。単位は分です。"
+    },
+    "optionsSave": {
+        "message": "保存"
+    }
+}

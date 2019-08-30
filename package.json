@@ -1,0 +1,25 @@
+{
+    "name": "djskip-for-soundcloud",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/eai04191/djskip-for-soundcloud.git",
+    "author": "Eai <eai@mizle.net>",
+    "license": "MIT",
+    "scripts": {
+        "build": "parcel build src/manifest.json",
+        "watch": "parcel watch src/manifest.json"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.88",
+        "eslint": "^6.2.2",
+        "eslint-config-prettier": "^6.1.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "parcel-bundler": "^1.12.3",
+        "parcel-plugin-web-extension": "^1.5.2",
+        "prettier": "^1.18.2",
+        "stylelint": "^10.1.0",
+        "stylelint-config-recess-order": "^2.0.3",
+        "typescript": "^3.6.2",
+        "webextension-polyfill-ts": "^0.9.1"
+    }
+}
